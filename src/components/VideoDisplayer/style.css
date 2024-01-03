@@ -1,0 +1,93 @@
+.VideoDisplayer{
+  overflow: hidden;
+  color: black;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  max-height: 100%;
+  max-width: 100rem;
+  width: 100%;
+  padding: 0 3rem;
+}
+#app {
+  height: 100%;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 2rem;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #c3073f;
+  border-radius: 1rem;
+}
+
+.swiper-slide img, .swiper-slide video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body {
+  background: #000;
+  color: #000;
+}
+
+.swiper {
+  width: 100%;
+  height: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 1rem 0;
+  margin-bottom: 4rem;
+}
+
+.mySwiper .swiper-slide {
+  width: 20%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
